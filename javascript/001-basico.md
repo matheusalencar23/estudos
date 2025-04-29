@@ -112,3 +112,9 @@ var nome = "Alencar";
 Ao tentar fazer essa redeclaração usando `let` um erro será lançado.
 
 ## Tipos de dados primitivos
+
+- `string`: caractere ou cadeia de carecteres que representam um valor textual;
+- `number`: valores numéricos tanto inteiros como reais (ponto flutuante);
+- `undefined`: quando declaramos uma variável mas não atribuimos nenhum valor, ela recebe o valor `undefined`, que não aponta para nenhum local na memeória;
+- `null`: é um valor nulo, e também não aponta para nenhum local na memória. Usamos o `null` quando queremos indicar, de forma explícita, que uma variável não deve ter valor, que ela não deve apontar para nenhum lugar na memória. O valor `undefined` não deve ser usado explicitamente pelo programador, ele deve ser deixado para uso somente da própria linguagem JavaScript.
+- `booleano`: só pode assumir dois possiveis valores, `true` e `false`, ou seja, verdadeiro e falso.
